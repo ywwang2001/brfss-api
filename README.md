@@ -28,7 +28,7 @@ Returns JSON data.
 
 ```python
 import pandas as pd
-df = pd.read_json("http://<your-vps-ip>:5000/data?year=2023&topic=Obesity")
+df = pd.read_json("http://192.3.36.156:5000/data?year=2023&topic=Obesity")
 df.to_csv("brfss.csv", index=False)
 ```
 
